@@ -1,0 +1,26 @@
+{
+  "name": "@flagpolejs/json-validator",
+  "version": "0.0.1",
+  "description": "Simple JSON validator that is similar to JSON Schema format, but with some simplified format that is more readable",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flagpolejs/json-validator.git"
+  },
+  "keywords": [
+    "json",
+    "validation",
+    "validator",
+    "jsonvalidator",
+    "schema"
+  ],
+  "author": "Jason Byrne <jasonbyrne662@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flagpolejs/json-validator/issues"
+  },
+  "homepage": "https://github.com/flagpolejs/json-validator#readme"
+}
