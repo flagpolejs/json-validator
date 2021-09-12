@@ -32,14 +32,19 @@ export class ValidationError {
 }
 
 function getType(value: any): Schema_Type {
-  const myType = typeof value;
-  if (myType === "undefined") {
+  // Handle null or undefined first
+  if (value === undefined) {
     return "undefined";
   }
+  if (value === null) {
+    return "null";
+  }
+  // Now look at the type
+  const myType = typeof value;
   if (Array.isArray(value)) {
     return "array";
   }
-  if (myType === "object" && myType !== null) {
+  if (myType === "object") {
     return "object";
   }
   if (myType == "boolean") {

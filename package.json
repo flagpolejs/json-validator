@@ -1,6 +1,6 @@
 {
   "name": "@flagpolejs/json-validator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple JSON validator that is similar to JSON Schema format, but with some simplified format that is more readable",
   "main": "dist/index.js",
   "scripts": {
